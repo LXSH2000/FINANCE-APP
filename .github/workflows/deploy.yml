@@ -16,6 +16,11 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Diagnostic: show node/npm
+        run: |
+          node --version || true
+          npm --version || true
+
       - name: Install dependencies
         run: npm install
 

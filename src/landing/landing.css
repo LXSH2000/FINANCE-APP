@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+.lp-root{min-height:100vh;background:#020209;color:#E8EAFF;display:flex;flex-direction:column}
+.lp-nav{display:flex;justify-content:space-between;align-items:center;padding:18px 36px;border-bottom:1px solid rgba(255,255,255,.04)}
+.lp-logo{display:flex;gap:10px;align-items:center}
+.lp-b{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#00D4FF,#7C3AFF);font-weight:800}
+.lp-name{font-weight:800;font-size:18px}
+.lp-hero{max-width:900px;margin:48px auto 32px;padding:0 20px;text-align:center}
+.lp-pill{display:inline-block;background:rgba(0,212,255,.06);border-radius:100px;padding:6px 14px;font-weight:700;color:#00D4FF;margin-bottom:18px}
+.lp-hero h1{font-size:48px;line-height:1.02;margin:12px 0}
+.accent{background:linear-gradient(135deg,#00D4FF,#9B5CFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.lp-hero p{font-size:18px;color:rgba(232,234,255,.55);margin-bottom:24}
+.lp-actions{display:flex;gap:12px;justify-content:center;margin-top:18px}
+.btnP{background:linear-gradient(135deg,#00D4FF,#7C3AFF);border:none;border-radius:12px;color:#fff;padding:12px 20px;font-weight:700}
+.btnG{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;color:rgba(232,234,255,.72);padding:10px 16px}
+.lp-feat{max-width:1040px;margin:0 auto 60px;padding:0 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.f{padding:18px;border-radius:12px;background:rgba(255,255,255,.03);backdrop-filter:blur(8px)}
+.lp-foot{text-align:center;padding:28px 20px;color:rgba(232,234,255,.45)}
+@media (max-width:880px){.lp-feat{grid-template-columns:1fr}.lp-hero h1{font-size:34px}}
